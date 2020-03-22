@@ -593,10 +593,10 @@ span {
     
 
     header h1 {
-        font-size: 35px;
+        font-size: 85px;
         margin-bottom: 25px;
-        padding-bottom: 113px;
-        -webkit-text-stroke: 1px royalblue;
+        padding-bottom: 45px;
+        -webkit-text-stroke: 3px black;
     }
 
     .contenedor-titulo h2 {
