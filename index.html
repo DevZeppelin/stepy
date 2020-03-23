@@ -40,11 +40,11 @@
                 <nav>
                     <ul class="lista-menu">
                         <li><a href="#sobre-mi"><strong>¿Qué es?</strong></a></li>
-                        <li><a href="#servicios"><strong>Autor y auto</strong></a></li>
+                        <li><a href="#servicios"><strong>Autor</strong></a></li>
                         <li><a href="#mis-trabajos"><strong>Cuentos</strong></a></li>
                         <li><a href="#por-que-trabajar"><strong>¿Como ser feliz?</strong></a></li>
                         <li><a href="#blog"><strong>Vuelta al mundo</strong></a></li>
-                        <li><a href="#que-esperas"><strong>COMPRAR</strong></a></li>
+                        <li><a href="#que-esperas"><strong>¡COMPRAR!</strong></a></li>
                         <li><a href="#contacto"><strong>Contacto</strong></a></li>
                     </ul>
                 </nav>
@@ -84,118 +84,38 @@
 
         <br/><br/><br/>
 
+        <section class="imagen-fija">
+        </section>
+
         <section id="servicios">
+
+
             <div class="contenedor">
-                <div>
-                <h3>escrito por Pablo Profetto...</h3>
-                <img src="imagenes/blog1.jpg" alt="">
-                </div>
-
-                <div>
-                <h3>revisado por Il Morta...</h3>
-                <img src="imagenes/blog2.jpg" alt="">
-                </div>
-
-                <div>
-                    <br/>
-                    <h3>¡llega la épica obra que estabas esperando!</h3>
-                    
-                    </div>
-
-            </div>
+            
+            
+            <h3>El autor</h3>
+            <p>Pablo Daniel Profetto nació el 15 de abril de 1986 en Mendoza. Dicen que a los 8 años ya escribía, pero pocas veces lo han visto leer. Cantautor y excelente guitarrista. Abogado, procurador y de alto conocimiento en inglés e italiano (Además de comprender a la perfección el idioma de perros salvajes y canarios en libertad)</br></br>Amigo de todos, de alma pura y noble. De los que no escatiman sentir o hacer sentir. Hombre de mates cortos, y charlas largas. Con su Citroen 3CV recorre el mundo en llevando a cada rincón un ejemplar de Stepy.</p>
         
 
+            </div>
+        </section>
+
+        <section class="imagen-fija2">
         </section>
 
         <br/><br/><br/>
 
         <section id="mis-trabajos">
 
-            <!--Para usar OWL Carousel
-            descargamos owl carousel de su pagina
-            extraemos
-            creo una carpeta que sae llame owl
-            de la carpeta dist: copio owl.carousel.js
-            de la carpeta dist/assets: copio owl.theme.default.min.js
-            y el archivo owl.carousel.min.js
-            con estos 3 archivos en la carpeta owl
-            copio los dos link que me da la paginma en el ppio del index.html
-
-            <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-            <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-
-            pero le cambio la carpeta owlcarousel por la carpeta q creamos: owl (xq sino no va a reconocer los archivos)
-            despues incluimos el js
-            antes de que cierre el body
-
-            <script src="owlcarousel/owl.carousel.min.js"></script>
-
-            despues voy a jQuery CDN. lo hago desde la nube para no bajarlo
-            en jquery 3x > minified > copio todo el codigo
-                
-            Code integration:
-            <script
-            src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
-
-            luego en la pag de owl carousel vamos a demos (vamos a usar el basico)
-            y en la parte setup nos dice el script que tenemos que popner
-
-                                $('.owl-carousel').owlCarousel({
-                        loop:true,
-                        margin:10,
-                        nav:true,
-                        responsive:{
-                            0:{
-                                items:1
-                            },
-                            600:{
-                                items:3
-                            },
-                            1000:{
-                                items:5
-                            }
-                        }
-                    })
-
-            y tambien nos sale lo que tenemos que poner en html:
-
-                    <div class="owl-carousel owl-theme">
-                            <div class="item"><h4>1</h4></div>
-                            <div class="item"><h4>2</h4></div>
-                            <div class="item"><h4>3</h4></div>
-                            <div class="item"><h4>4</h4></div>
-                            <div class="item"><h4>5</h4></div>
-                            <div class="item"><h4>6</h4></div>
-                            <div class="item"><h4>7</h4></div>
-                            <div class="item"><h4>8</h4></div>
-                            <div class="item"><h4>9</h4></div>
-                            <div class="item"><h4>10</h4></div>
-                            <div class="item"><h4>11</h4></div>
-                            <div class="item"><h4>12</h4></div>
-                        </div>
-
-            en la pag de owl > en docs > en API > options > en dots "Show dots navegation" > esta en true. lo pongo en false
-            en el script le pongo dots: false
-
-            para agrandar las flechitas > inspecciono el elemento > con la flechita mas + me selecciona su clase > ahi le escribo font-size: 40px !important (este !important lo que hace es decirle al prog que si ya tenia un font-size, que no mire a ese, q mire a este q es mas importante )
-
-            con el inspector seleccione y probe cambiando los font-size de las flechitas
-            ahi tambien seleccione el span y le cambie el color. esos estilos que probe con la tecla + del inspector los copie y los pegue en la hoja de estilos css.
-
-            para mostrar menos imagenes, en el script, en el responsive, para escritotio (1000) cambio 5 por 4
-        
-        -->
             <div class="contenedor">
                 <h3>Muestra gratis de cuentos</h3>
 
                 <div class="owl-carousel owl-theme">
-                    <div class="item"><img src="imagenes/ejemplos trabajos/mimate.png"><p>Carl, el reloj olvidado Web</p></div>
-                    <div class="item"><img src="imagenes/ejemplos trabajos/ej02.jpg"><p>Olas</p></div>
-                    <div class="item"><img src="imagenes/ejemplos trabajos/ej01.jpg"><p>El nogal, la puerta y el recuerdo</p></div>
-                    <div class="item"><img src="imagenes/ejemplos trabajos/ej02.jpg"><p>El flautista</p></div>
-                    <div class="item"><img src="imagenes/ejemplos trabajos/ej01.jpg"><p>Invasión</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej01.jpg"><p>Felipe y el gnomo que vivía en su barba</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej02.jpg"><p>Carl, el reloj olvidado</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej03.jpg"><p>La logia de los Sin Pelo</p></div>
+                    <div class="item"><img src="imagenes/ejemplos trabajos/ej04.jpg"><p>Cuento comido</p></div>
+                  
                     
                 </div>
 
@@ -211,32 +131,13 @@
 
             <div class="contenedor">
                 <h3>¿Puedo ser feliz sin Stepy?</h3>
+                
                 <div class="contenedor-trabajar">
 
-                    <div class="item">
-                        <ul>
-                            <li><img src="imagenes/velocidad.png"></li>
-                            <li>Velocidad</li>
-                            <li>MConsidero la importancia de que tu sitio cargue velozmente, optimizando el valioso tiempo de los usuarios.</li>
-                        </ul>
-                    </div>
-
-                    <div class="item">
-                        <ul>
-                            <li><img src="imagenes/mantenimiento.png"></li>
-                            <li>Asesoramiento</li>
-                            <li>Me mantengo en comunicación con vos para cualquier modificación que quieras hacerle a tu WEb</li>
-                        </ul>
-                    </div>
-
-                    <div class="item">
-                        <ul>
-                            <li><img src="imagenes/mobile-icon.png"></li>
-                            <li>Compatibilidad</li>
-                            <li>Es bueno tener la tranquilidad de que nuestra web se adaptará a cualquier tipo de pantalla.</li>
-                        </ul>
-                    </div>
-
+                        <div><img src="imagenes/stepanenko.png">
+                            <h4>Taras Stepanenko</h4>
+                            <p>El jugador del Shaktar Donetsk recomienda mucho este libro. En la presa ukraniana garantizó y atribuyó la gracia de sus goles al anaranjado libro.</p>
+                        </div>
                 </div>
             </div>
 

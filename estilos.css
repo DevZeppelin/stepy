@@ -167,13 +167,34 @@ h3 {
 
 /*.........................SECCION DE "SERVICIOS"..................*/
 
-    #servicios img {
-        width: 100%;
-    }
+.imagen-fija{
 
-    #servicios h3 {
-        font-size: 32px;
-    }
+    background: url(imagenes/pablo.jpg);
+    
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 60px;
+}
+
+.imagen-fija2{
+
+    background: url(imagenes/pablo2.jpg);
+    
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 60px;
+}
+
+#servicios p {
+    padding: 0 50px ;
+    text-align: justify;
+}
 
 /*.........................SECCION MIS TRABAJOS.....................*/
 
@@ -196,37 +217,17 @@ span {
 
 .contenedor-trabajar {
 
-    display: flex;
-    /*el wrap era x si los elementos ocupan mucho lugar pasan a la otra línea*/
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
+   text-align: center;
+          
 }
 
-#por-que-trabajar .item {
-
-    width: 28%;
-    text-align: center;
-    
-
+.contenedor-trabajar img {
+    width: 300px;
+    height: 300px;
 }
 
-#por-que-trabajar ul {
-    list-style: none;
-}
-
-/*aqui llamo al elemento hijo n°2. li es hijo de ul. el 1 seria la imagen . el 2 velocidad. y el 3 el parrafo. tmb puedo usar first-child o last-child*/
-#por-que-trabajar ul li:nth-child(2){
-
-    font-weight: bold;
-    font-size: 19px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-
-#por-que-trabajar ul li:nth-child(3){
-
-    line-height: 31px;
+.contenedor-trabajar p {
+    padding: 0 90px;
 }
 
 /*.........................SAECCION BLOG.............................*/
@@ -305,14 +306,14 @@ span {
      margin-bottom: 15px;
      padding: 18px 0;
      border: 0;
-     border-bottom: 2px solid #5cb8ff;
+     border-bottom: 2px solid #ff8800;
      font-size: 17px;
  } 
 
  textarea {
      padding: 18px;
      border: 0;
-     border-bottom: 2px solid #5cb8ff;
+     border-bottom: 2px solid #ff8800;
      font-size: 17px;
      margin-bottom: 40px;
      width: 100%;
@@ -424,6 +425,9 @@ span {
    /*en el medio que se va a ver esta pag sera con un ancho maximo de 800 px (suficiente para tablets como para fonos) si es solo para celus le ponemos 480px. */
   
   
+
+   
+   
   
    @media (max-width: 800px) {
 
